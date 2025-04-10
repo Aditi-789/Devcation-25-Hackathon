@@ -1,0 +1,10 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
