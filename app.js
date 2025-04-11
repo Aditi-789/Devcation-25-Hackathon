@@ -10,7 +10,7 @@ galaxyRenderer.setSize(window.innerWidth, window.innerHeight);
 galaxyContainer.appendChild(galaxyRenderer.domElement);
 
 // Galaxy setup
-const galaxyParams = { stars: 30000, arms: 7, spin: 5, brightness: 0.8 };
+const galaxyParams = { stars: 15000, arms: 7, spin: 5, brightness: 0.8 };
 const galaxyGeometry = new THREE.BufferGeometry();
 const positions = new Float32Array(galaxyParams.stars * 3);
 const colors = new Float32Array(galaxyParams.stars * 3);
